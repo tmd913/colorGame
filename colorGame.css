@@ -1,0 +1,94 @@
+body {
+    background-color: #232323;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0px;
+    background-color: rgb(33, 121, 202);
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#winningColor {
+    text-transform: uppercase;
+}
+
+#navbar {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: rgb(33, 121, 202);
+    background-color: white;
+    border-radius: 0;
+}
+
+#square-container, #button-container {
+    text-align: center;
+    max-width: 500px;
+}
+
+.btn {
+    margin: 0;
+    height: 50px;
+    border-radius: 0;
+    background-color: white;
+    border-color: white;
+    color: rgb(33, 121, 202);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.btn:hover, .selected {
+    margin: 0;
+    height: 50px;
+    border-radius: 0;
+    background-color: rgb(33, 121, 202);
+    border-color: rgb(33, 121, 202);
+    color: white;
+}
+
+#new {
+    float: left;
+}
+
+#easy {
+    float: right;
+}
+
+#hard {
+    float: right;
+}
+
+#message {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#square-container {
+    padding-top: 10px;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20px;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+}
+
+
