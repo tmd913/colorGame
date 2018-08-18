@@ -59,6 +59,16 @@ h1 {
     color: white;
 }
 
+#new:focus {
+    background-color: white;
+    color: rgb(33, 121, 202);
+}
+
+#new:active {
+    background-color: rgb(26, 64, 100);
+    color: white;
+}
+
 #new {
     float: left;
 }
