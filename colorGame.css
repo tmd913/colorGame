@@ -64,8 +64,13 @@ h1 {
     color: rgb(33, 121, 202);
 }
 
+#new, #easy, #hard {
+    outline: 0;
+    border: none;
+}
+
 #new:active {
-    background-color: rgb(26, 64, 100);
+    background-color: rgb(43, 76, 107);
     color: white;
 }
 
